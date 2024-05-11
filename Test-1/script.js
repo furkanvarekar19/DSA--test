@@ -2,15 +2,14 @@
 // Write a JavaScript for loop that iterates from 0 to 10 and prints only the even numbers.
 ;
 
-// for(let i = 0; i<10; i++){
-//   if(i == 0){
-//      console.log("even");
-//   }
-//   else{
-//     console.log("odd");
-
-//   }
+// for(let i=0;i<=10;i++){
+//     if(i%2==0){
+//         console.log("even");
+//     }else{
+//       console.log("odd");
+//     }
 // }
+
 
 // Question 2:
 
@@ -72,5 +71,12 @@
 // Create a JavaScript function that takes an array of strings as input and returns a new array with only the strings that have a length greater than 5 characters.
 
 var array =["virat","rohit","risabh","furkan"]
+
+ function lenthofarray(){
+   for(let i = 0;i<array.length;i++){
+    console.log(i);
+
+   }
+ }
 
 
