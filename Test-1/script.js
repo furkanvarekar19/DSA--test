@@ -70,13 +70,32 @@
 
 // Create a JavaScript function that takes an array of strings as input and returns a new array with only the strings that have a length greater than 5 characters.
 
-var array =["virat","rohit","risabh","furkan"]
+// var array = ["virat","rohit","risabh","furkan"];
+// var array2 = [];
+//  function lenthofarray(array){
+//    for(let i = 0;i<array.length;i++){
+//     if(array[i].length>5){
+//       array2 = array[i];
+//   }
+//     return array2;
 
- function lenthofarray(){
-   for(let i = 0;i<array.length;i++){
-    console.log(i);
+//    }
+//   }
+//   console.log(lenthofarray(array));
 
-   }
- }
+// Question 6:
+// Write a JavaScript function that takes a number as input and returns true if it is a prime number, otherwise false.
 
+// let number = 11;
+// function primenumber (number){
+//   for(let i = 0; i<10;i++){
+//     if(number%i === 0){
+//       return false;
+//     }else{
+//       return true;
 
+//     }
+
+//   }
+// }
+//  console.log(primenumber(number));
