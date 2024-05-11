@@ -105,13 +105,27 @@
 
 // Create a JavaScript program that calculates the sum of all numbers from 1 to 1000 that are divisible by both 3 and 5.
 
-var numbersum = 0;
-for( var i = 1; i<1000;i++){
-  // console.log(numbersum);
-  if(i%3==0 && i%5==0){
-    numbersum =numbersum+i;
-    // console.log(i);
-  }
-}
-console.log(i);
+// var numbersum = 0;
+// for( var i = 1; i<1000;i++){
+//   // console.log(numbersum);
+//   if(i%3==0 && i%5==0){
+//     numbersum =numbersum+i;
+//     // console.log(i);
+//   }
+// }
+// console.log(i);
 
+// Question 8:
+
+// Write a JavaScript function that takes a string as input and returns the reverse of the string using a for loop.
+
+
+let strings = "abcd";
+function reverseString (strings){
+  for(let i = strings.length-1;i>0;i--){
+     
+  }
+  
+}
+
+console.log(reverseString(strings));
