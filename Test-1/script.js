@@ -99,3 +99,18 @@
 //   }
 // }
 //  console.log(primenumber(number));
+
+
+// Question 7:
+
+// Create a JavaScript program that calculates the sum of all numbers from 1 to 1000 that are divisible by both 3 and 5.
+
+var numbersum = 0;
+for( var i = 1; i<1000;i++){
+  // console.log(numbersum);
+  if(i%3==0 && i%5==0){
+    numbersum =numbersum+i;
+  }
+}
+console.log(numbersum);
+
