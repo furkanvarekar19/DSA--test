@@ -110,7 +110,8 @@ for( var i = 1; i<1000;i++){
   // console.log(numbersum);
   if(i%3==0 && i%5==0){
     numbersum =numbersum+i;
+    // console.log(i);
   }
 }
-console.log(numbersum);
+console.log(i);
 
