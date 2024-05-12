@@ -119,13 +119,16 @@
 
 // Write a JavaScript function that takes a string as input and returns the reverse of the string using a for loop.
 
+// let strings = "furkan";
+// var newstring = "";
+// function reverse(strings){
+//   for(let i = strings.length-1;i>=0;i--){
 
-let strings = "abcd";
-function reverseString (strings){
-  for(let i = strings.length-1;i>0;i--){
-     
-  }
-  
-}
+//      newstring += strings[i];
+   
+//   }
+//   return newstring;
+// }
 
-console.log(reverseString(strings));
+// console.log(reverse(strings));
+
