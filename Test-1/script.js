@@ -132,3 +132,32 @@
 
 // console.log(reverse(strings));
 
+
+// Question 10:
+// Write a JavaScript function that takes an array of numbers as input and returns the maximum difference between any two numbers in the array.
+
+array=[1,2,3,4,5,6,7,8,9,10]
+ function maxdifference(array){
+    min=99999999;
+    max=0;
+    for(i =0;i<array.length;i++){
+        // console.log(array[i]);
+        if(array[i]<min){
+            min = array[i];    
+        }
+        else if(array[i]>max){
+            max = array[i];    
+
+        }
+    }
+    return max-min;
+
+ }
+ const array1 = maxdifference(array);
+ console.log("minimum number :", min);
+ console.log("maximum number :", max);
+ console.log("max difference between two number is :", array1);
+
+
+
+
