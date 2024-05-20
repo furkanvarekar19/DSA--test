@@ -1,19 +1,20 @@
 // Question 1:
 // Write a JavaScript function that takes an array of numbers as input and returns a new array with each number squared.
-
-// array= [1,2,3,4,5];
+//  array=[1,2,3,4,5];
 // array1=[];
 // function square(array){
-// for(let i =0;i<array.length;i++){
-//   // console.log(array[i]);
-//   var square1=array[i]* array[i];
-//   array1.push(square1);
+//     for(var i=0;i<array.length;i++){
+//         // console.log(array[i])
+//         var squre1=array[i]*array[i];
+//         array1.push(squre1);
+//     }
+//     return array1
+// }
 
-// }
-// return array1;
-// }
-//   const array2 = square(array);
-//   console.log(array2);
+// const array2=square(array);
+// console.log(array2);
+
+
  
 // Question 4:
 // Create a JavaScript function that takes an object and a key as input, and returns the value associated with that key in the object. If the key does not exist, return a default value
@@ -28,14 +29,16 @@
 // Question 6:
 // Create a JavaScript function that takes a string as input and returns a new string with each character duplicated
 
-// function duplicatevalue(str){
-//   for(var i = 0;i<str.length;i++){
-//     var str2="";
-//     str2 += str[i] + str[i]
-//     console.log(str2);
-//   }
+// function duplicat(str){
+//         var str2='';
+//     for(var i=0;i<str.length;i++){
+        
+//         str2 += str[i]+str[i];
+//         console.log(str2);
+//     }
 // }
-// duplicatevalue("hello");
+
+// duplicat("hello")
 
 // Question 9:
 // Write a JavaScript function that takes an array of numbers and returns the second smallest number in the array.
