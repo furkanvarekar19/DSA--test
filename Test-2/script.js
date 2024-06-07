@@ -34,7 +34,8 @@
 //  palinDrome("madam");
 
 // Q.3 
-  // Write a JavaScript function that takes two arrays as input and returns a new array that contains only the elements that are present in both
+  // Write a JavaScript function that takes two arrays as input and returns a new array that contains
+  //  only the elements that are present in both
 
 //     array=[1,2,3,4];
 // array1=[3,4,5,6];
@@ -112,7 +113,8 @@
 // getKeyValue(obj1);
 
 // Question 8:
-// Create a JavaScript function that takes a sentence as input and returns the number of words in the sentence.
+// Create a JavaScript function that takes a sentence as input and returns the number of 
+// words in the sentence.
 
 // Question 9:
 // Write a JavaScript function that takes an array of numbers and returns the second smallest number in the array.
@@ -126,4 +128,5 @@
 // console.log(secondSmall(Input));
 
 // Question 10:
-// Create a JavaScript function that takes a date object and returns a formatted string in the format "YYYY-MM-DD".
+// Create a JavaScript function that takes a date object and returns a formatted string in the
+//  format "YYYY-MM-DD".

@@ -28,7 +28,8 @@
 
 // Question 3:
 
-// Create a JavaScript function that takes an array of numbers as input and returns the sum of all the numbers using a for loop.
+// Create a JavaScript function that takes an array of numbers as input and returns the sum of all the 
+// numbers using a for loop.
 
 // let array = [1,2,3,4,5]
 
@@ -40,7 +41,7 @@
 //     }
 //    console.log(sum);
 // }
-// sumofarray(array)
+// sumofarray(array);
 
 
 // Question 4:
@@ -68,7 +69,8 @@
 
 // Question 5:
 
-// Create a JavaScript function that takes an array of strings as input and returns a new array with only the strings that have a length greater than 5 characters.
+// Create a JavaScript function that takes an array of strings as input and returns a new array 
+// with only the strings that have a length greater than 5 characters.
 
 // var array = ["virat","rohit","risabh","furkan"];
 // var array2 = [];
@@ -136,27 +138,27 @@
 // Question 10:
 // Write a JavaScript function that takes an array of numbers as input and returns the maximum difference between any two numbers in the array.
 
-array=[1,2,3,4,5,6,7,8,9,10]
- function maxdifference(array){
-    min=99999999;
-    max=0;
-    for(i =0;i<array.length;i++){
-        // console.log(array[i]);
-        if(array[i]<min){
-            min = array[i];    
-        }
-        else if(array[i]>max){
-            max = array[i];    
+// array=[1,2,3,4,5,6,7,8,9,10]
+//  function maxdifference(array){
+//     min=99999999;
+//     max=0;
+//     for(i =0;i<array.length;i++){
+//         // console.log(array[i]);
+//         if(array[i]<min){
+//             min = array[i];    
+//         }
+//         else if(array[i]>max){
+//             max = array[i];    
 
-        }
-    }
-    return max-min;
+//         }
+//     }
+//     return max-min;
 
- }
- const array1 = maxdifference(array);
- console.log("minimum number :", min);
- console.log("maximum number :", max);
- console.log("max difference between two number is :", array1);
+//  }
+//  const array1 = maxdifference(array);
+//  console.log("minimum number :", min);
+//  console.log("maximum number :", max);
+//  console.log("max difference between two number is :", array1);
 
 
 
