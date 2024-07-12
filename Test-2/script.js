@@ -62,6 +62,26 @@
 // Question 4:
 // Create a JavaScript function that takes an object and a key as input, and returns the value associated with that
 //  key in the object. If the key does .
+  
+//  function getvlaue(obj,key) {
+//    if(key in obj){
+//     return obj[key];
+//    }else{
+//     return 'key does not exices';
+//    }
+//   };
+//    const person ={
+//     name:'furkan',
+//     lasname : 'varekar',
+//     age : 18,
+//    }
+  
+//  console.log(getvlaue(person,"name"));
+//    console.log(getvlaue(person,"age"));
+//    console.log(getvlaue(person,"lasname"));
+//    console.log(getvlaue(person,"city"));
+//    console.log(getvlaue(person,"number"));
+
 
 
 // Question 5:
@@ -130,3 +150,18 @@
 // Question 10:
 // Create a JavaScript function that takes a date object and returns a formatted string in the
 //  format "YYYY-MM-DD".
+
+//  function formatDate(date) {
+//   let year = date.getFullYear();
+//   // let month = (date.getMonth() + 1).toString().padStart(2, '0');
+//   let month = date.getMonth();
+
+//   let day = date.getDate();
+
+//   return `${year}-${month}-${day}`;
+// }
+
+// // Example usage:
+// let date = new Date();
+// console.log(formatDate(date));
+
